@@ -2,6 +2,13 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 ##################################################################################
+# This script assigns a release version to a list of tickets
+##################################################################################
+# Steps to use it:
+# 1. Create a fix version for each project to which the tickets are associated
+# 2. Add the name of the fix version to the variable fix_version
+# 3. Add the list of tickets to the variable final_tickets
+##################################################################################
 
 fix_version = "EBH 2.0"
 
